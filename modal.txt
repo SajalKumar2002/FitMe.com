@@ -1,0 +1,32 @@
+<div class="modal-content registration-form">
+        <div class="modal-header">
+            <h2 class="modal-title" id="membershipFormLabel">Membership Form</h2>
+        </div>
+        <div class="modal-body">
+            <form class="membership-form webform" role="form">
+                <input type="text" class="form-control" name="cf-name" placeholder="Sajal Kumar">
+
+                <input type="email" class="form-control" name="cf-email" placeholder="Sajal@gmail.com">
+
+                <input type="tel" class="form-control" name="cf-phone" placeholder="123-456-7890" pattern="[0-9]{10}}"
+                    required>
+
+                <textarea class="form-control" rows="3" name="cf-message"
+                    placeholder="Additional Information"></textarea>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Submit
+                    Button</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- LOG IN FORM -->
+                <div class="col-lg-6 col-12 p-sm-3 p-md-3 p-lg-3">
+                    <h3 class="header">Log In</h3>
+                    <form class="form">
+                        <input type="text" placeholder="Name" name="cf-name" class="form-control">
+                        <input type="password" placeholder="Password" name="cf-password" class="form-control">
+                        <button type="button" class="btn form-control btn-dark ">Log In</button>                                                    
+                    </form>
+                </div>
